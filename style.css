@@ -1,0 +1,55 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+.a, .b, #prime{
+    width: 800px;
+    height: 640px;
+    border-radius: 5mm;
+    box-sizing: border-box;
+    box-shadow: -8px -8px 8px 0 dodgerblue;
+    position: absolute;
+    left: 0; 
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 15px;
+}
+
+.b{
+    width: 600px;
+    height: 500px;  
+    box-shadow: 8px 8px 8px 0 palegreen;
+   
+}
+input{
+    border: 2px solid greenyellow;
+    border-radius: 2mm;
+    padding: 3px;
+    color: deeppink;
+    font-size: 20px;
+    margin: 3px;
+}
+#toDisplay{
+    width: 450px;
+    height: 100px;
+    border-bottom: 2px ; 
+    box-shadow: 0  0 0 ;
+    box-sizing: border-box;
+    text-align: center;
+    padding:5px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: deeppink;
+    
+}  
+label{
+    font-size: large;
+    color: blue;
+}
+button{
+    background-color: skyblue;
+    margin-left: 25%;
+    margin-top: 5%;
+    font-size: 17px;
+}
